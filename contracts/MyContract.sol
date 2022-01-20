@@ -9,11 +9,11 @@ contract MyContract {
         name = _name;
     }
 
-    function changeNmae(string memory _name) public {
+    function changeName(string memory _name) public {
         name = _name;
     }
 
-    function getNmae() public view returns(string memory){
+    function getName() public view returns(string memory){
         return name;
     }
 }
